@@ -1,0 +1,11 @@
+client_post c1.jpg
+client_get s1.png
+client_get s2.png
+client_post c2.jpeg
+client_get s3.html
+client_post c4.html
+client_get s4.txt
+client_get s5.txt
+client_get sos.sos
+client_post sdff
+client_post c3.txt
