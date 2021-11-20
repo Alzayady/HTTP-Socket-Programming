@@ -127,7 +127,6 @@ public:
                 break;
             }
         }
-        // cout << "recuving " << str.substr(0, 100) << endl;
 
         return str;
     }

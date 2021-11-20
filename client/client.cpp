@@ -161,16 +161,12 @@ int main(int argc, char const *argv[])
                 return -1;
             }
             allThreads.push_back(proccess_conn);
-            // pthread_join(proccess_conn, NULL);
         }
     }
     for (auto it : allThreads)
     {
         pthread_join(it, NULL);
     }
-    // while (1)
-    // {
-    // }
     close(sock_fd);
     return 0;
 }
